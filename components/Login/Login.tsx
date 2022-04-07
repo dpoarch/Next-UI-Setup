@@ -98,6 +98,7 @@ export const Login = () =>{
               label="Remember me"
             />
             <Button
+              id="login"
               type="submit"
               fullWidth
               variant="contained"

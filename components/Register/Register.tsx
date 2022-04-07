@@ -95,6 +95,7 @@ export const Register = () => {
               </Grid>
             </Grid>
             <Button
+              id="register"
               type="submit"
               fullWidth
               variant="contained"

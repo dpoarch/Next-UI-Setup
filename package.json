@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "node ./database-test.js && next dev",
+    "test": "cypress open",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
@@ -25,6 +26,7 @@
   "devDependencies": {
     "@types/node": "17.0.22",
     "@types/react": "17.0.42",
+    "cypress": "^9.5.3",
     "eslint": "8.11.0",
     "eslint-config-next": "12.1.0",
     "typescript": "4.6.2"
